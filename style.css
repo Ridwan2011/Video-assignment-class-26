@@ -93,6 +93,12 @@
     float: left;
     top: -108px;
     right: 1px;
+    animation-name: box-a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
 }
 
 
@@ -102,9 +108,15 @@
     border: 5px solid #9b59b6;
     float: right;
     position: absolute;
+    animation-name: box-a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
 }
 
-
+/* 
 .circle-3{
     height: 200px;
     width: 200px;
@@ -121,4 +133,4 @@
     position: absolute;
     left: 0px;
     bottom: 9px;
-}
+} */
