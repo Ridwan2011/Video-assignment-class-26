@@ -574,7 +574,7 @@ progress {
  color:#6c757d
 }
 .blockquote-footer::before {
- content:"— "
+ content:"— "
 }
 .img-fluid {
  max-width:100%;
@@ -5874,10 +5874,10 @@ fieldset:disabled .btn {
 }
 .spinner-border {
  display:inline-block;
- width:30rem;
- height:30rem;
+ width:40rem;
+ height:40rem;
  vertical-align:-.125em;
- border:.25em solid currentColor;
+ border:2.25em solid currentColor;
  border-right-color:transparent;
  border-radius:50%;
  -webkit-animation:.75s linear infinite spinner-border;
