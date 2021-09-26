@@ -5874,8 +5874,8 @@ fieldset:disabled .btn {
 }
 .spinner-border {
  display:inline-block;
- width:40rem;
- height:40rem;
+ width:35rem;
+ height:35rem;
  vertical-align:-.125em;
  border:2.25em solid currentColor;
  border-right-color:transparent;
