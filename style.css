@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.for-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.box{
+    height: 100px;
+    width: 130px;
+    background: url(./Screenshot_2.png) no-repeat;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position:   relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box{
+    0%{
+        transform: rotate(0);
+    }
+
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.box-1{
+    height: 200px;
+    width: 200px;
+    background-color: #2ecc71;
+    animation-name: box-a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 220px;
+}
+
+@keyframes box-a{
+    0%{
+        transform: rotate(0);
+    }
+
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.circle-1{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #9b59b6;
+    position: absolute;
+    float: left;
+    top: -108px;
+    right: 1px;
+}
+
+
+.circle-2{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #9b59b6;
+    float: right;
+    position: absolute;
+}
+
+
+.circle-3{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #9b59b6;
+    float: right;
+    position: absolute;
+    left: -72px;
+}
+.circle-4{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #9b59b6;
+    float: right;
+    position: absolute;
+    left: 0px;
+    bottom: 9px;
+}
